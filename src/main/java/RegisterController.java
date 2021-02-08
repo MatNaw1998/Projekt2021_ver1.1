@@ -195,7 +195,18 @@ public class RegisterController {
         isReady = false;
     }
 
-    private void clearLabels() {
+    private void setLabelTags() {
+        labelLogin.setText(Strings.login);
+        labelPass1.setText(Strings.password);
+        labelPass2.setText(Strings.rePassword);
+        labelMail1.setText(Strings.email);
+        labelMail2.setText(Strings.reEmail);
+        labelName.setText(Strings.name);
+        labelSurname.setText(Strings.surname);
+        labelAdress.setText(Strings.adress);
+    }
+
+        private void clearLabels() {
         labelLogin.setText(null);
         labelPass1.setText(null);
         labelPass2.setText(null);

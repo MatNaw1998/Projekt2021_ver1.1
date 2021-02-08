@@ -5,3 +5,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# CodeStream ignored files
+/../../Projekt2021_ver1.1\.idea/codestream.xml
