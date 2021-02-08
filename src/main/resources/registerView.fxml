@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterController">
+    <children>
+        <VBox prefHeight="398.0" prefWidth="527.0">
+            <children>
+                <Label fx:id="labelTagLogin1" alignment="CENTER" prefHeight="30.0" prefWidth="106.0" text="login" />
+                <Label fx:id="labelTagPass1" alignment="CENTER" prefHeight="48.0" prefWidth="105.0" text="haslo" />
+                <Label fx:id="labelTagPass2" alignment="CENTER" prefHeight="39.0" prefWidth="154.0" text="powtorz haslo" />
+                <Label fx:id="labelTagMail1" alignment="CENTER" prefHeight="47.0" prefWidth="111.0" text="email" />
+                <Label fx:id="labelTagMail2" alignment="CENTER" prefHeight="35.0" prefWidth="154.0" text="powtorz email" />
+                <Label fx:id="labelTagName" alignment="CENTER" prefHeight="54.0" prefWidth="110.0" text="imie" />
+                <Label fx:id="labelTagSurname" alignment="CENTER" prefHeight="35.0" prefWidth="135.0" text="nazwisko" />
+                <Label fx:id="labelTagAdress" alignment="CENTER" prefHeight="46.0" prefWidth="123.0" text="adres" />
+                <Label fx:id="labelTagPhone" alignment="CENTER" prefHeight="42.0" prefWidth="174.0" text="numer telefonu" />
+                <Label fx:id="labelTagUsertype" alignment="CENTER" prefHeight="42.0" prefWidth="174.0" text="opcjonalnie numer legitymacji" />
+            </children>
+        </VBox>
+        <VBox prefHeight="433.0" prefWidth="774.0">
+            <children>
+                <TextField fx:id="textFieldLogin" promptText="login" />
+                <Label fx:id="labelLogin" text="" />
+                <PasswordField fx:id="passField1" promptText="haslo" />
+                <Label fx:id="labelPass1" text="" />
+                <PasswordField fx:id="passField2" promptText="powtorz haslo" />
+                <Label fx:id="labelPass2" text="" />
+                <TextField fx:id="textFieldMail1" promptText="email" />
+                <Label fx:id="labelMail1" text="" />
+                <TextField fx:id="textFieldMail2" promptText="powtorz email" />
+                <Label fx:id="labelMail2" text="" />
+                <TextField fx:id="textFieldName" promptText="imie" />
+                <Label fx:id="labelName" text="" />
+                <TextField fx:id="textFieldSurname" promptText="nazwisko" />
+                <Label fx:id="labelSurname" text="" />
+                <TextField fx:id="textFieldAdress" promptText="adres" />
+                <Label fx:id="labelAdress" text="" />
+
+                <TextField fx:id="textFieldPhone" promptText="numer telefonu" />
+                <Label fx:id="labelPhone" text="" />
+
+                <TextField fx:id="textFieldTypeCode" promptText="numer legitymacji" />
+                <Label fx:id="labelType" text="" />
+
+                <Button fx:id="buttonRegister" mnemonicParsing="false" onAction="#onActionbuttonRegister" text="Button" />
+                <Label fx:id="label" text="" />
+            </children>
+        </VBox>
+    </children>
+</HBox>
